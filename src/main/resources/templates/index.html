@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Diana</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+
+
+</head>
+<body>
+    <div class="container text-center">
+        <div>
+    <h1>Welcome to my page</h1>
+    </div>
+    <div>
+        <h3><a th:href="@{/register}">Register</a></h3>
+        <h3><a th:href="@{/users}">List All Users</a></h3>
+        <h3><a th:href="@{/login}">Log In</a></h3>
+
+    </div>
+    </div>
+</body>
+</html>
